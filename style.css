@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+header img{
+   width:150px;
+   
+}
+h2, ul, p, h5{
+     margin-right: 150px;
+    margin-left: 150px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+
+}
+
+h3, h4, footer{
+    text-align: center;
+}
+    
+.ignat{
+    width: 400px;
+}
+
+header h1{
+    line-height:100px;
+    
+}
+
+main img{
+    width: 800px;
+ 
+}
+
+footer img{
+    width: 25px;
+    
+}
+
+nav{
+     margin-right: 150px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+   text-decoration: none;
+   border:2px solid blue;
+   padding: 5px;
+   border-radius: 7px;
+   background-color:rgb(100, 180, 254);
+   color:rgb(0, 0, 0);
+}
+
+nav a:hover{
+    box-shadow:4px 5px 0 0 rgb(36, 35, 35);
+    transition: 0.3s linear;
+}
+
+div{
+    text-align: center;
+}
+
